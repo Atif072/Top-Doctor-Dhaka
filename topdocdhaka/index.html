@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Top Doctor Dhaka</title>
+    <link rel="stylesheet" href="assets/stylesheets/main.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:100,300,400">
+	<script type="text/javascript" src="assets/javascripts/indexjs.js"></script>
+	<script type="text/javascript" src="assets/javascripts/jquery.js"></script>
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header class="primary-header container group">
+
+      <h1 class="logo">
+        <a href="index.html" >Top <br>  Doctor <br>Dhaka</a>
+      </h1>
+      <nav class="nav primary-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li><!--
+          --><li><a href="speakers.html">Speakers</a></li><!--
+          --><li><a href="schedule.html">Schedule</a></li><!--
+          --><li><a href="venue.html">Venue</a></li><!--
+          --><li><a href="register.html">Register</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Teasers -->
+
+    <section class="row">
+      <div class="grid">
+	    <!-- Department -->
+	    <section class="teaser col-3-3">
+			<h5>Department</h5>
+			<ul class="dropdown-menu scrollable-menu dListCls" id="dList" role="menu">
+				<script type="text/javascript">$(document).ready(addDeptList());</script>
+        </section><!--
+		 
+		 -----Search Bar-----
+		 
+		--><form class="col-4-3" action="#" method="post">
+          <fieldset class="register-group">
+            <label>
+              Doctor's Name
+              <input type="text" name="name" placeholder="Full name" required>
+            </label>
+            <label>
+              Department
+              <input type="email" name="email" placeholder="Department" required>
+            </label>
+		  </fieldset>
+          <input class="btn btn-default" type="submit" name="submit" value="Search">
+        </form><!----
+		
+		----Hospital Name----
+		
+		--><section class="teaser col-3-3">
+			<h5>Hospital Name</h5>
+			<ul class="dropdown-menu scrollable-menu" id="hList" role="menu">
+				<script type="text/javascript">$(document).ready(addHospList());</script>
+			</ul>
+        </section>
+      </div>
+	
+	  <div class="grid grid-next">
+		<!--Rating-->	
+		<h5>Doctor List</h5>
+		<section class="teaser col-1-3">
+          <h5>Rate This Doctor!!</h5>
+          <a href="venue.html">
+            <img src="assets/images/home/venue.jpg" alt="The Chicago Theatre">
+            <h3>The Chicago Theatre</h3>
+          </a>
+          <p>Within the heart of downtown Chicago, The Chicago Theatre will provide a beautiful conference venue.</p>
+        </section><!---
+		Doctor Info
+		--><section class="teaser col-1-3">
+          <h5>Doctor Information</h5>
+          <a href="venue.html">
+            <img src="assets/images/home/venue.jpg" alt="The Chicago Theatre">
+            <h3>The Chicago Theatre</h3>
+          </a>
+          <p>Within the heart of downtown Chicago, The Chicago Theatre will provide a beautiful conference venue.</p>
+        </section><!---
+		Comments about doctor
+		--><section class="teaser col-1-3">
+          <h5>Comments About Doctor</h5>
+          <a href="venue.html">
+            <img src="assets/images/home/venue.jpg" alt="The Chicago Theatre">
+            <h3>The Chicago Theatre</h3>
+          </a>
+          <p>Within the heart of downtown Chicago, The Chicago Theatre will provide a beautiful conference venue.</p>
+        </section>
+		
+	  </div>
+	  
+    </section>
+
+    <!-- Footer -->
+
+    <footer class="primary-footer container group">
+
+      <small>&copy; Styles Conference</small>
+
+      <nav class="nav">
+        <ul>
+          <li><a href="index.html">Home</a></li><!--
+          --><li><a href="speakers.html">Speakers</a></li><!--
+          --><li><a href="schedule.html">Schedule</a></li><!--
+          --><li><a href="venue.html">Venue</a></li><!--
+          --><li><a href="register.html">Register</a></li>
+        </ul>
+      </nav>
+
+    </footer>
+
+  </body>
+</html>
